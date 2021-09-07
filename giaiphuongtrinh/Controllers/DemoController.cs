@@ -5,13 +5,13 @@ using System.Web;
 
 namespace BaiTap2.Models
 {
-    public class BaiTap2
+    public class GiaiPhuongTrinh
     {
-        public double GPT(double x, double y)
+        public double Timx(double x, double y)
         {
-            double GPT = 0;
-            GPT = -x / y;
-            return GPT;
+            double GTX = 0;
+           GTX = -x / y;
+            return GTX;
         }
     }
 }
