@@ -22,8 +22,8 @@ namespace BaiTap2.Controllers
             double soa = Convert.ToDouble(soX);
             double sob = Convert.ToDouble(soY);
             //ke thua phuong thuc TimX
-            double ketqua = -sob / soa;
-            ViewBag.Giaipt = ketqua;
+            double gt_x = Gpt.Timx(soa, sob);
+            ViewBag.timgtx = gt_x;
             return View();
         }
     }
