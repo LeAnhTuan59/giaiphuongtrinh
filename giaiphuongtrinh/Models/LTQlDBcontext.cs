@@ -4,7 +4,7 @@ using System.Data.Entity;
 using System.Linq;
 using System.Web;
 
-namespace giaiphuongtrinh.Models
+namespace BaiNgay7hang9.Models
 {
     public partial class LTQLDbContext : DbContext
     {
@@ -21,5 +21,4 @@ namespace giaiphuongtrinh.Models
             .IsUnicode(false);
         }
     }
-
 }
