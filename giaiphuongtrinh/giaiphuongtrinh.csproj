@@ -136,9 +136,14 @@
     <Compile Include="Migrations\202109210138550_intialcreate.designer.cs">
       <DependentUpon>202109210138550_intialcreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202109210312296_Khachhangdb_Duy.cs" />
+    <Compile Include="Migrations\202109210312296_Khachhangdb_Duy.designer.cs">
+      <DependentUpon>202109210312296_Khachhangdb_Duy.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\account.cs" />
     <Compile Include="Models\classdungdekethua.cs" />
+    <Compile Include="Models\Khachhang.cs" />
     <Compile Include="Models\LTQlDBcontext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -200,6 +205,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202109210138550_intialcreate.resx">
       <DependentUpon>202109210138550_intialcreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202109210312296_Khachhangdb_Duy.resx">
+      <DependentUpon>202109210312296_Khachhangdb_Duy.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

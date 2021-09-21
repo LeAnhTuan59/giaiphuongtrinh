@@ -12,6 +12,7 @@ namespace BaiNgay7hang9.Models
         [Key]
         public string Usename { get; set; }
         public string Password { get; set; }
+       
 
     }
 }
